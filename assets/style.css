@@ -242,6 +242,32 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/* réglage prblm contraste */
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 48px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-indicators button {
+    background-color: #1a1a1a;
+    opacity: 0.6;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.carousel-indicators button.active {
+    background-color: #1a1a1a;
+    opacity: 1;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
