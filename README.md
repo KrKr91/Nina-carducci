@@ -16,7 +16,7 @@ Le code a été enrichi pour améliorer la compréhension du site par Google :
 - **SEO Local (JSON-LD) :** Intégration de données structurées `Schema.org` (type `LocalBusiness`) incluant l'adresse à Bordeaux, les horaires et la zone d'intervention (Paris/Bordeaux) pour favoriser l'apparition dans le *Local Pack* de Google.
 - **Social Media (SMO) :** Ajout des balises Meta `Open Graph` (Facebook, LinkedIn) et `Twitter Cards` pour générer des aperçus propres lors du partage du lien.
 
-## Accessibilité (A11y)
+## Accessibilité 
 Le site a été audité avec l'outil **WAVE** et mis en conformité avec les normes d'accessibilité :
 - **Contrastes :** Modification du code CSS pour assurer un ratio de contraste lisible sur les boutons de navigation de la galerie.
 - **Lecteurs d'écran :** Ajout d'attributs `alt` pertinents sur l'ensemble des images et liaison sémantique des balises `<label>` et `<input>` du formulaire de contact.
